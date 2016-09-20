@@ -32,7 +32,7 @@ node_modules/grunt-cli/bin/grunt deploy_production
 cd ..
 
 # /tmp-deploy
-service apache2 stop
+sudo service apache2 stop
 sudo service nginx restart
 
 cd ..
