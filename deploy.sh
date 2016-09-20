@@ -10,6 +10,7 @@ cd foram-api
 # /foram-api
 git checkout master
 git pull
+gem install bundler
 bundle install
 bundle exec cap production deploy
 cd ..
